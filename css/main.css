@@ -26,6 +26,7 @@
 
  .header.on {
      background: #fff;
+     border-bottom: 1px solid #ddd;
  }
 
  .header .inner {
@@ -45,8 +46,18 @@
 
  .header .gnb>ul {
      display: flex;
-     gap: 30px;
+     gap: 10px;
      font-size: 14px;
+ }
+
+ .header .gnb>ul li a {
+     padding: 12px 10px;
+ }
+
+ .header .gnb>ul li a:hover {
+     background: #ececec;
+     border-radius: 5px;
+     padding: 12px 10px;
  }
 
  .header .language {
@@ -142,6 +153,10 @@
      border-radius: 5px;
      color: #fff;
      background: rgba(0, 0, 0, 0.8);
+ }
+
+ .main_text .logo a:hover {
+     background: #3182f6;
  }
 
  .main_text .logo img {
@@ -267,7 +282,7 @@
      font-weight: 700;
      color: #000;
      line-height: 70px;
-     margin: 0 0 80px 0;
+     margin: 0 0 200px 0;
  }
 
  .remittance .container {
@@ -312,11 +327,12 @@
      display: flex;
      align-items: center;
      margin: 0 0 200px 0;
+     justify-content: flex-end;
  }
 
  .remittance .container_02 .left {
      position: absolute;
-     left: -3.6%;
+     left: -45px;
      width: 500px;
      font-size: 0;
  }
@@ -337,6 +353,129 @@
  }
 
  .remittance .container_02 .right span {
+     font-size: 20px;
+     font-weight: 500;
+     color: rgb(107, 118, 132);
+     line-height: 30px;
+     margin: 0 0 30px 0;
+ }
+
+ .remittance .container_03 {
+     position: relative;
+     display: flex;
+     align-items: center;
+ }
+
+ .remittance .container_03 .left h2 {
+     font-size: 25px;
+     font-weight: 700;
+     color: #3182f6;
+     margin: 0 0 30px 0;
+ }
+
+ .remittance .container_03 .left p {
+     font-size: 35px;
+     font-weight: 700;
+     color: #000;
+     line-height: 50px;
+     margin: 0 0 30px 0;
+ }
+
+ .remittance .container_03 .left span {
+     font-size: 20px;
+     font-weight: 500;
+     color: rgb(107, 118, 132);
+     line-height: 30px;
+     margin: 0 0 30px 0;
+ }
+
+ .remittance .container_03 .right {
+     position: absolute;
+     right: -3.6%;
+     width: 500px;
+     font-size: 0;
+ }
+
+ .loan {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     padding: 200px 0;
+ }
+
+ .loan .inner {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width: 1200px;
+     max-height: 1200px;
+     margin: 0 auto;
+
+     position: relative;
+ }
+
+ .loan .inner>div {
+     width: 500px;
+ }
+
+ .case {
+     position: relative;
+     width: 300px;
+     margin: 0 0 0 auto;
+ }
+
+ .case .bg {
+     position: absolute;
+     top: 0;
+     right: -110px;
+ }
+
+ .loan .inner .img_box div {
+     margin: 40px 0 0 50px;
+ }
+
+ .loan .inner .img_box img {
+     width: 300px;
+ }
+
+ .loan .inner .img_box .slick-arrow {
+     background: transparent;
+     font-size: 0;
+     border: none;
+ }
+
+ .loan .inner .text_box>h2 {
+     font-size: 30px;
+     font-weight: 700;
+     color: #3182f6;
+     margin: 0 0 30px 0;
+ }
+
+ .loan .inner .text_box>p {
+     font-size: 50px;
+     font-weight: 700;
+     color: #000;
+     line-height: 70px;
+     margin: 0 0 200px 0;
+ }
+
+ .loan .inner .text02_box>p {
+     font-size: 50px;
+     font-weight: 700;
+     color: #000;
+     line-height: 70px;
+     margin: 0 0 50px 0;
+ }
+
+ .loan .inner .text02_box .tet01 {
+     color: #8b95a1;
+ }
+
+ .loan .inner .text02_box .tet02 {
+     color: #d1d6db;
+ }
+
+ .loan .inner .text02_box .tet03 {
      font-size: 20px;
      font-weight: 500;
      color: rgb(107, 118, 132);

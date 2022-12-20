@@ -13,4 +13,11 @@ $(function () {
             $('.header').removeClass('on')
         }
     });
+
+    $('.loan .inner .img_box').slick({
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+    });
+
 })

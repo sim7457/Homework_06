@@ -1,4 +1,5 @@
 $(function () {
+    AOS.init();
 
     $('.scroll-down i').on('click', function () {
         var sct = $('.eadyikr').offset().top
@@ -20,4 +21,9 @@ $(function () {
         autoplaySpeed: 4000,
     });
 
+    $('.footer .right').on('click', function () {
+        var sct = $('.header').offset().top;
+        console.log(sct)
+        $('html,body').animate({ scrollTop: 0 }, 600)
+    })
 })

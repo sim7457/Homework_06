@@ -1041,3 +1041,32 @@
  .footer .inner .term_wrapper ul .wr1 {
      color: #b0b8c1;
  }
+
+ .footer .inner .term_icon {
+     position: relative;
+ }
+
+ .footer .inner .term_icon ul {
+     display: flex;
+     gap: 10px;
+ }
+
+ .footer .inner .term_icon ul li {
+     padding: 8px;
+     background: #60666e;
+     border-radius: 50%;
+     font-size: 20px;
+ }
+
+ .footer .inner .term_icon ul li:hover {
+     background: #84888f;
+ }
+
+ .footer .inner .term_icon .right {
+     position: absolute;
+     top: 25%;
+     right: 0;
+
+     font-size: 24px;
+     color: #b0b8c1;
+ }
